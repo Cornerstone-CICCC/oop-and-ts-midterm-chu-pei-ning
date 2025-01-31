@@ -7,3 +7,4 @@ const cartContext = new CartContext()
 const app = new App({ cartContext })
 
 app.mount(root)
+app.fetchProducts()
